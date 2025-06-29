@@ -18,12 +18,14 @@ hero:
       link: /api-examples
 
 features:
-  - title: 特点 A(可跳转)
+  - title: 特点 A
     details: 这是一条描述
-    link: https:www.bing.com
+    link: https://www.bing.com
   - title: 特点 B
     details: 这是一条标语
+    link: https://www.baidu.com.com
   - title: 特点 C
     details: 这是一条标语
+    link: https://www.google.com
 ---
 
