@@ -5,7 +5,7 @@ import { set_sidebar } from "../utils/auto-gen-sidebar.mjs";	// 改成自己的�
 export default defineConfig({
   lang: 'zh-CN',
   title: "Lynna Demo",
-  description: "一个VitePress Site站点",
+  description: "一个VitePress站点",
   head: [["link", { rel: "icon", href: "/index.svg" }]],
   lastUpdated: true,
 
