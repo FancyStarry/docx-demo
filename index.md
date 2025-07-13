@@ -14,13 +14,13 @@ hero:
       text: Markdown 示例
       link: /markdown-examples
     - theme: alt
-      text: API 示例
-      link: /api-examples
+      text: 哈基米加密器
+      link: https://hjm.krkr.xyz
 
 features:
   - title: 特点 A
     details: 这是一条描述
-    link: https://www.bing.com
+    link: 1.html
   - title: 特点 B
     details: 这是一条标语
     link: https://www.baidu.com.com
