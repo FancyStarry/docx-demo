@@ -8,7 +8,7 @@ export default defineConfig({
   description: "一个VitePress站点",
   head: [["link", { rel: "icon", href: "/index.svg" }]],
   lastUpdated: true,
-
+  cleanUrls:true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/index.svg",
