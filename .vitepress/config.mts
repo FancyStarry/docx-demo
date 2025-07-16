@@ -27,6 +27,12 @@ export default defineConfig({
           { text: 'Markdown 示例', link: '/markdown-examples' },
           { text: 'Runtime API 示例', link: '/api-examples' }
         ]
+      },
+      {
+        text: '小工具',
+        items: [
+          { text: 'WebCipherBox', link: '/docx/WebCipherBox.md' }
+        ]
       }
     ],
     // sidebar: { "/": set_sidebar("/") },
