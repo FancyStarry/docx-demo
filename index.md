@@ -3,29 +3,32 @@
 layout: home
 
 hero:
-  name: "Lynna Demo"
-  text: "一个VitePress站点"
+  name: "Lynna Docx"
+  text: "Lynna的文档"
   tagline: 
   image: 
     src: /index.svg
     alt: 主页图
   actions:
     - theme: brand
-      text: Markdown 示例
-      link: /markdown-examples
-    - theme: alt
-      text: 哈基米加密器
-      link: https://hjm.krkr.xyz
+      text: 查看所有工具
+      link: /docx/WebCipherBox
+    # - theme: alt
+    #   text: 文本加密器
+    #   link: /docx/Text-Encryptor.md
 
 features:
-  - title: 特点 A
-    details: 这是一条描述
-    link: 1.html
-  - title: 特点 B
-    details: 这是一条标语
-    link: https://www.baidu.com.com
-  - title: 特点 C
-    details: 这是一条标语
-    link: https://www.google.com
+  - title: 文件加密伪装工具
+    details: 一款完全在浏览器中运行的文件加密与伪装工具
+    link: /docx/WebCipherBox
+  - title: 魔曰
+    details: 一款仿文言文的文字加密混淆工具
+    link: /docx/WebMoyue
+  - title: Nonsense Encryptor
+    details: 一款基于16进制文本替换编码工具
+    link: /docx/Nonsense-Encryptor
+  - title: Text Encryptor
+    details: 一款基于自定义字典的文本加密工具
+    link: /docx/Text-Encryptor
 ---
 

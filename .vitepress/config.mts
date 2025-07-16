@@ -4,8 +4,8 @@ import { set_sidebar } from "../utils/auto-gen-sidebar.mjs";	// 改成自己的�
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
-  title: "Lynna Demo",
-  description: "一个VitePress站点",
+  title: "Lynna Docx",
+  description: "一个个人文档站点",
   head: [["link", { rel: "icon", href: "/index.svg" }]],
   lastUpdated: true,
   cleanUrls:true,
@@ -22,18 +22,21 @@ export default defineConfig({
     },
     sidebar: [
       {
-        text: '目录',
+        text: '小工具',
+        items: [
+          { text: 'WebCipherBox', link: '/docx/WebCipherBox.md' },
+          { text: 'Nonsense Encryptor', link: '/docx/Nonsense-encryptor' },
+          { text: 'Text Encryptor', link: '/docx/Text-Encryptor' },
+          { text: 'WebMoyue', link: '/docx/WebMoyue' }
+        ]
+      },
+            {
+        text: '示例',
         items: [
           { text: 'Markdown 示例', link: '/markdown-examples' },
           { text: 'Runtime API 示例', link: '/api-examples' }
         ]
       },
-      {
-        text: '小工具',
-        items: [
-          { text: 'WebCipherBox', link: '/docx/WebCipherBox.md' }
-        ]
-      }
     ],
     // sidebar: { "/": set_sidebar("/") },
 
